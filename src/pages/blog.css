@@ -1,0 +1,22 @@
+.posts--blog h1 {
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.post--teaser__date,
+.post--teaser__tags {
+    display: inline-block;
+}
+
+.post--teaser__tags {
+    margin-left: 1rem;
+}
+
+.post--teaser__tags span {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1rem;
+    padding: 0.15rem;
+    background: #f6f7f8;
+}

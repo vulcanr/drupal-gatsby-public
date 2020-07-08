@@ -1,0 +1,56 @@
+.about {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .about {
+        width: 65%;
+        padding: 2rem;
+    }
+}
+
+.about h1 {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+h2.about__title {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: 'Montserrat';
+    width: 65%;
+    margin: 0 auto 1.45rem auto;
+    font-weight: 900;
+}
+
+.about a {
+    font-weight: 600;
+    border-bottom: 1px solid #494949;
+    text-decoration: none;
+    color: #494949;
+    transition: all 200ms linear;
+}
+
+.about a:hover {
+    padding-bottom: 3px;
+    margin-bottom: -3px;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+.about img {
+    margin-bottom: 0;
+}
+
+.about small {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}

@@ -1,0 +1,71 @@
+.contact {
+    width: 100%;
+}
+
+.contact h1 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: 'Montserrat';
+    width: 100%;
+}
+
+.contact__links {
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.contact a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    font-family: 'Montserrat';
+}
+
+.contact__links-item {
+    text-align: center;
+    transition: all 200ms linear;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.contact__links-item:hover {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    margin-top: -3px;
+    margin-left: -3px;
+    
+}
+
+.contact__links-item img {
+    max-height: 65px;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+.contact a:hover,
+.contact a:active {
+    color: #494949;
+}
+
+@media screen and (min-width: 962px) {
+    .contact {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .contact__links-item {
+        background: #fff;
+        width: calc(50% - 2rem);
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+}

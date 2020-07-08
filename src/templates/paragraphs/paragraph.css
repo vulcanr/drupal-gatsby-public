@@ -1,0 +1,25 @@
+.building-block {
+    margin-bottom: 2rem;
+}
+
+.building-block--text p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 2rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.building-block--text ul {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 2rem;
+}
+
+
+.building-block--image p {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+}

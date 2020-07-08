@@ -1,0 +1,97 @@
+.post {
+    padding: 1rem;
+    background: #fff;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+@media screen and (min-width: 769px) {
+    .post {
+        padding: 2rem;
+        width: 65%;
+    }
+}
+
+.post--teaser {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 150ms linear;
+}
+
+.post--teaser:hover {
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.18);
+    margin-top: -3px;
+    margin-left: -3px;
+    margin-bottom: calc(2rem + 3px);
+}
+
+.post--teaser__link {
+    text-decoration: none;
+    color: #494949;
+}
+
+.post--teaser__link h2 {
+    margin-bottom: 0;
+}
+
+.post--teaser__date {
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 0.750rem;
+}
+
+.post--teaser__text {
+    margin-top: 1rem;
+}
+
+.post--teaser__text p {
+    margin-bottom: 0;
+}
+
+.post--teaser__link a {
+    font-family: 'Montserrat'; 
+    color: #494949;
+    text-decoration: none;
+}
+
+.post h1 {
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.post a {
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #494949;
+    font-weight: 700;
+    color: #494949;
+    transition: 100ms all linear;
+}
+
+.post a:hover {
+    margin-bottom: -2px;
+    padding-bottom: 3px;
+}
+
+.post__date {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.back-button-holder {
+   width: 100%;
+   margin: 0 0 2rem 0;
+   text-align: right;
+   display: block;
+}
+
+@media screen and (min-width: 769px) {
+    .back-button-holder {
+        width: 65%;
+        margin: 0 auto 2rem auto;
+        padding: 0;
+    }
+}

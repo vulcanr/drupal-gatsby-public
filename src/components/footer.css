@@ -1,0 +1,43 @@
+footer.container {
+    font-family: 'Montserrat';
+    padding-top: 1.5rem;
+}
+
+footer a {
+    margin: 0 0.5rem 1.5rem 0.5rem;
+    filter: grayscale(100%);
+    transition: all 200ms ease-in-out;
+}
+
+footer a:hover,
+footer a:active {
+    filter: grayscale(0%);
+}
+
+.link-gatsby {
+    text-indent: -999px;
+    color: transparent;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/gatsby-icon.png);
+    background-size: contain;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.link-gatsby:hover,
+.link-gatsby:active {
+    opacity: 1;
+}
+
+.link-drupal {
+    text-indent: -999px;
+    color: transparent;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/drupal-9-icon.png);
+    background-size:  30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    
+}
